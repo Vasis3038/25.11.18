@@ -9,7 +9,7 @@ Euler int (int n){
     int ans = 1;
     for (int i = 2; i<= n;){
         if (n%i == 0){
-                if(i == p){ ans= ans*p;
+                if(i == p){ ans= ans*p;}
                 else
                 {
                 ans = ans*(i - 1);
